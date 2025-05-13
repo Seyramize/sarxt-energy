@@ -13,7 +13,22 @@ export const metadata: Metadata = {
   title: "Sarxt Energy | Solar Power & M.E.P. Services",
   description:
     "Sarxt Energy provides professional solar power solutions and M.E.P. services for residential and commercial properties. Lower your bills, increase property value, and help protect the planet.",
-    generator: 'v0.dev'
+    generator: 'v0.dev',
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/icon0.svg", type: "image/svg+xml" },
+      { url: "/icon1.png", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-icon.png", sizes: "180x180" },
+    ],
+    other: [
+      { rel: "manifest", url: "/manifest.json" },
+    ],
+  },
 }
 
 export default function RootLayout({
