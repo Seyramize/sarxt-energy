@@ -90,17 +90,17 @@ export function PlumbingPlansTable() {
             <td className="p-4 border-b border-gray-200"></td>
             <td className="p-4 text-center border-b border-gray-200">
               <Button asChild variant="outline" className="w-full">
-                <Link href="/contact?plan=basic-plumbing">Get Started</Link>
+                <Link href="/quote?plan=basic-plumbing">Get Started</Link>
               </Button>
             </td>
             <td className="p-4 text-center border-b border-gray-200 bg-yellow-50 dark:bg-yellow-900/20">
               <Button asChild className="w-full bg-primary hover:bg-primary/90">
-                <Link href="/contact?plan=standard-plumbing">Choose Plan</Link>
+                <Link href="/quote?plan=standard-plumbing">Choose Plan</Link>
               </Button>
             </td>
             <td className="p-4 text-center border-b border-gray-200">
               <Button asChild variant="outline" className="w-full">
-                <Link href="/contact?plan=premium-plumbing">Go Premium</Link>
+                <Link href="/quote?plan=premium-plumbing">Go Premium</Link>
               </Button>
             </td>
           </tr>

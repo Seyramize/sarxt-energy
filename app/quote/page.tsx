@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
 import { useRouter } from "next/navigation"
 import { zodResolver } from "@hookform/resolvers/zod"
@@ -218,6 +218,14 @@ export default function QuotePage() {
   const [formErrors, setFormErrors] = useState<string[]>([])
   const [attemptedSubmit, setAttemptedSubmit] = useState(false)
   const router = useRouter()
+  const [selectedPlan, setSelectedPlan] = useState<string | null>(null)
+
+  const formatPlanName = (planSlug: string): string => {
+    return planSlug
+      .split("-")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ")
+  }
 
   // Initialize the form
   const form = useForm<FormValues>({
@@ -244,6 +252,27 @@ export default function QuotePage() {
     shouldFocusError: true,
   })
 
+  useEffect(() => {
+    // Check URL for plan parameter
+    const params = new URLSearchParams(window.location.search)
+    const planParam = params.get("plan")
+
+    if (planParam) {
+      setSelectedPlan(planParam)
+
+      // Set service type based on plan prefix
+      if (planParam.includes("solar")) {
+        form.setValue("serviceType", "solar")
+      } else if (planParam.includes("hvac")) {
+        form.setValue("serviceType", "mechanical")
+      } else if (planParam.includes("electrical")) {
+        form.setValue("serviceType", "electrical")
+      } else if (planParam.includes("plumbing")) {
+        form.setValue("serviceType", "plumbing")
+      }
+    }
+  }, [])
+
   // Watch the service type to conditionally render fields
   const serviceType = form.watch("serviceType")
 
@@ -253,10 +282,16 @@ export default function QuotePage() {
     setIsSubmitting(true)
 
     try {
+      // Add selected plan to the data
+      const submissionData = {
+        ...data,
+        selectedPlan: selectedPlan || "none",
+      }
+
       // Simulate API call
       await new Promise((resolve) => setTimeout(resolve, 2000))
 
-      console.log("Form submitted:", data)
+      console.log("Form submitted:", submissionData)
       setIsSubmitting(false)
       setIsSubmitted(true)
 
@@ -330,6 +365,14 @@ export default function QuotePage() {
                       {/* Service Selection */}
                       <div className="space-y-4">
                         <h2 className="text-xl font-semibold">What service are you interested in?</h2>
+                        {selectedPlan && (
+                          <div className="p-4 bg-primary/10 rounded-lg mb-6">
+                            <h3 className="font-medium text-lg mb-2">Selected Plan: {formatPlanName(selectedPlan)}</h3>
+                            <p className="text-gray-600 dark:text-gray-300">
+                              You've selected a specific service plan. We'll tailor your quote accordingly.
+                            </p>
+                          </div>
+                        )}
                         <div className="grid grid-cols-2 sm:grid-cols-5 gap-4">
                           <FormField
                             control={form.control}

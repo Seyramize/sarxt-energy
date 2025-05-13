@@ -88,17 +88,17 @@ export function HVACPlansTable() {
             <td className="p-4 border-b border-gray-200"></td>
             <td className="p-4 text-center border-b border-gray-200">
               <Button asChild variant="outline" className="w-full">
-                <Link href="/contact?plan=basic-hvac">Get Started</Link>
+                <Link href="/quote?plan=basic-hvac">Get Started</Link>
               </Button>
             </td>
             <td className="p-4 text-center border-b border-gray-200 bg-yellow-50 dark:bg-yellow-900/20">
               <Button asChild className="w-full bg-primary hover:bg-primary/90">
-                <Link href="/contact?plan=standard-hvac">Choose Plan</Link>
+                <Link href="/quote?plan=standard-hvac">Choose Plan</Link>
               </Button>
             </td>
             <td className="p-4 text-center border-b border-gray-200">
               <Button asChild variant="outline" className="w-full">
-                <Link href="/contact?plan=premium-hvac">Go Premium</Link>
+                <Link href="/quote?plan=premium-hvac">Go Premium</Link>
               </Button>
             </td>
           </tr>

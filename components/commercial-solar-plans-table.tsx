@@ -86,17 +86,17 @@ export function CommercialSolarPlansTable() {
             <td className="p-4 border-b border-gray-200"></td>
             <td className="p-4 text-center border-b border-gray-200">
               <Button asChild variant="outline" className="w-full">
-                <Link href="/contact?plan=small-business-solar">Get Started</Link>
+                <Link href="/quote?plan=small-business-solar">Get Started</Link>
               </Button>
             </td>
             <td className="p-4 text-center border-b border-gray-200 bg-yellow-50 dark:bg-yellow-900/20">
               <Button asChild className="w-full bg-primary hover:bg-primary/90">
-                <Link href="/contact?plan=mid-size-commercial-solar">Request Quote</Link>
+                <Link href="/quote?plan=mid-size-commercial-solar">Request Quote</Link>
               </Button>
             </td>
             <td className="p-4 text-center border-b border-gray-200">
               <Button asChild variant="outline" className="w-full">
-                <Link href="/contact?plan=enterprise-solar">Enterprise Solution</Link>
+                <Link href="/quote?plan=enterprise-solar">Enterprise Solution</Link>
               </Button>
             </td>
           </tr>
