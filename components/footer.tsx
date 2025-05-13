@@ -99,12 +99,12 @@ export default function Footer() {
             <ul className="mt-4 space-y-2">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                <span className="text-gray-300">123 Energy Way, Solar City, SC 12345</span>
+                <span className="text-gray-300">Accra, Ghana</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-primary mr-2" />
                 <Link href="tel:+1234567890" className="text-gray-300 hover:text-primary">
-                  (123) 456-7890
+                  (+233) 54-650-6220
                 </Link>
               </li>
               <li className="flex items-center">
