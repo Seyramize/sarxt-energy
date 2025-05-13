@@ -484,99 +484,47 @@ export default function ElectricalServicesPage() {
                 title: "Licensed & Certified Professionals",
                 description:
                   "Our electricians are fully licensed, insured, and regularly trained on the latest electrical codes and technologies.",
-                icon: (
-                  <svg className="h-12 w-12 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-                    />
-                  </svg>
-                ),
+                icon: <ShieldCheck className="h-6 w-6 text-primary" />,
               },
               {
                 title: "Transparent, Upfront Pricing",
                 description:
                   "We provide detailed estimates before work begins, with no hidden fees or surprises. You'll know exactly what you're paying for.",
-                icon: (
-                  <svg className="h-12 w-12 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 8h6m-5 0a3 3 0 110 6H9l3 3m-3-6h6m6 1a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                ),
+                icon: <Zap className="h-6 w-6 text-primary" />,
               },
               {
                 title: "Prompt, Reliable Service",
                 description:
                   "We respect your time with on-time arrival, efficient service, and clean, professional workmanship on every job.",
-                icon: (
-                  <svg className="h-12 w-12 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                ),
+                icon: <AlertTriangle className="h-6 w-6 text-primary" />,
               },
               {
                 title: "Comprehensive Warranty",
                 description:
                   "We stand behind our work with warranties on both labor and materials, giving you peace of mind long after the job is complete.",
-                icon: (
-                  <svg className="h-12 w-12 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M20.618 5.984A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016zM12 15a3 3 0 100-6 3 3 0 000 6z"
-                    />
-                  </svg>
-                ),
+                icon: <LightbulbIcon className="h-6 w-6 text-primary" />,
               },
               {
                 title: "Energy-Efficient Solutions",
                 description:
                   "We recommend and install energy-saving electrical solutions that reduce your environmental impact and lower your utility bills.",
-                icon: (
-                  <svg className="h-12 w-12 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"
-                    />
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"
-                    />
-                  </svg>
-                ),
+                icon: <BatteryCharging className="h-6 w-6 text-primary" />,
               },
               {
                 title: "24/7 Emergency Service",
                 description:
                   "Electrical emergencies don't wait for business hours. Our team is available around the clock for urgent electrical problems.",
-                icon: (
-                  <svg className="h-12 w-12 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                ),
+                icon: <ShieldCheck className="h-6 w-6 text-primary" />,
               },
-            ]}
+            ].map((item, index) => (
+              <div key={index} className="flex flex-col items-center text-center">
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
+                  {item.icon}
+                </div>
+                <h3 className="text-lg font-medium">{item.title}</h3>
+                <p className="mt-2 text-gray-600 dark:text-gray-300">{item.description}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
