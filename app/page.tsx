@@ -28,10 +28,10 @@ export default function Home() {
         title="Our Impact"
         subtitle="We're committed to creating a sustainable future through renewable energy solutions."
         stats={[
-          { value: 500, label: "Projects Completed", suffix: "+" },
-          { value: 15000, label: "kW Installed", suffix: "+" },
-          { value: 12000, label: "Tons of CO₂ Offset", suffix: "+" },
-          { value: 98, label: "Client Satisfaction", suffix: "%" },
+          { value: 50, label: "Projects Completed", suffix: "+" },
+          { value: 1500, label: "kW Installed", suffix: "+" },
+          { value: 1200, label: "Tons of CO₂ Offset", suffix: "+" },
+          { value: 85, label: "Client Satisfaction", suffix: "%" },
         ]}
         className="bg-gray-50"
       />
@@ -276,7 +276,7 @@ export default function Home() {
                 asChild
                 variant="outline"
                 size="lg"
-                className="text-base border-white text-white hover:bg-white hover:text-sarxt-dark relative overflow-hidden group"
+                className="text-base border-white text-black hover:bg-yellow-400 hover:text-sarxt-dark relative overflow-hidden group"
               >
                 <Link href="/contact">
                   <span className="relative z-10">Contact Us</span>

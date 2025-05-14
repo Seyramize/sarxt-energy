@@ -32,7 +32,7 @@ export default function ContactPage() {
                       </div>
                       <div className="ml-4">
                         <h4 className="text-sm font-medium text-gray-900">Our Location</h4>
-                        <p className="mt-1 text-sm text-gray-600">123 Energy Way, Solar City, SC 12345</p>
+                        <p className="mt-1 text-sm text-gray-600">Accra, Ghana</p>
                       </div>
                     </div>
 
@@ -44,7 +44,7 @@ export default function ContactPage() {
                       </div>
                       <div className="ml-4">
                         <h4 className="text-sm font-medium text-gray-900">Phone</h4>
-                        <p className="mt-1 text-sm text-gray-600">(123) 456-7890</p>
+                        <p className="mt-1 text-sm text-gray-600">+233546506220</p>
                       </div>
                     </div>
 
@@ -78,7 +78,7 @@ export default function ContactPage() {
 
                 <div className="h-64 relative">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215573036935!2d-73.98784492346177!3d40.75798597138413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1683650101048!5m2!1sen!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127073.66941292668!2d-0.2667197706965779!3d5.559286399303474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9084b2b7a773%3A0xbed14ed8650e2dd3!2sAccra!5e0!3m2!1sen!2sgh!4v1747238357823!5m2!1sen!2sgh"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
