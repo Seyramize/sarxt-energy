@@ -11,15 +11,15 @@ export default function TermsOfService() {
 
           <h2 className="text-xl font-semibold mt-8 mb-4">1. Acceptance of Terms</h2>
           <p>
-            By accessing or using the Sarxt Energy website and services, you agree to be bound by these Terms of Service
+            By accessing or using the SAY Energy website and services, you agree to be bound by these Terms of Service
             ("Terms"). If you do not agree to these Terms, please do not use our website or services.
           </p>
 
           <h2 className="text-xl font-semibold mt-8 mb-4">2. Description of Services</h2>
           <p>
-            Sarxt Energy provides solar energy solutions and M.E.P. (Mechanical, Electrical, and Plumbing) services for
+            SAY Energy provides solar energy solutions and M.E.P. (Mechanical, Electrical, and Plumbing) services for
             residential and commercial properties. Our services include but are not limited to residential solar
-            installations, commercial solar projects, HVAC services, electrical services, and plumbing services.
+            installations, commercial solar installations, HVAC services, electrical services, and plumbing services.
           </p>
 
           <h2 className="text-xl font-semibold mt-8 mb-4">3. Use of the Website</h2>
@@ -62,14 +62,14 @@ export default function TermsOfService() {
 
           <h2 className="text-xl font-semibold mt-8 mb-4">7. Limitation of Liability</h2>
           <p>
-            To the fullest extent permitted by law, Sarxt Energy shall not be liable for any indirect, incidental,
+            To the fullest extent permitted by law, SAY Energy shall not be liable for any indirect, incidental,
             special, consequential, or punitive damages resulting from your use of or inability to use the website or
             services.
           </p>
 
           <h2 className="text-xl font-semibold mt-8 mb-4">8. Indemnification</h2>
           <p>
-            You agree to indemnify and hold harmless Sarxt Energy and its officers, directors, employees, and agents
+            You agree to indemnify and hold harmless SAY Energy and its officers, directors, employees, and agents
             from any claims, damages, liabilities, costs, or expenses arising from your use of the website or violation
             of these Terms.
           </p>
@@ -90,7 +90,7 @@ export default function TermsOfService() {
           <h2 className="text-xl font-semibold mt-8 mb-4">11. Contact Information</h2>
           <p>If you have any questions about these Terms, please contact us at:</p>
           <p className="mt-2">
-            Sarxt Energy Inc.
+            SAY Energy Inc.
             <br />
             123 Energy Way
             <br />

@@ -36,7 +36,7 @@ export default function IndustriesPage() {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Powering Industries Forward</h2>
             <p className="mt-6 text-lg text-gray-600">
-              At Sarxt Energy, we understand that different industries have unique energy and infrastructure needs. Our
+              At SAY Energy, we understand that different industries have unique energy and infrastructure needs. Our
               specialized solutions are designed to address the specific challenges and opportunities in each sector,
               helping businesses optimize operations, reduce costs, and meet sustainability goals.
             </p>
@@ -228,7 +228,7 @@ export default function IndustriesPage() {
                 />
               </div>
               <div className="p-8 md:p-12">
-                <h3 className="text-2xl font-bold mb-4">Partner With Sarxt Energy</h3>
+                <h3 className="text-2xl font-bold mb-4">Partner With SAY Energy</h3>
                 <p className="text-gray-600 mb-6">
                   We work closely with businesses across all industries to develop customized energy solutions that
                   address specific operational challenges and sustainability goals. Our team of experts will collaborate

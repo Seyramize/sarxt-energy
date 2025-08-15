@@ -237,7 +237,7 @@ export default function RetailPage() {
               <h3 className="text-xl font-bold mb-3">Tax Incentives</h3>
               <p className="text-gray-700">
                 Take advantage of federal, state, and local tax incentives and rebates for energy efficiency and
-                renewable energy projects.
+                renewable energy installations.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">

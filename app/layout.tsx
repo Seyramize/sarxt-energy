@@ -10,10 +10,10 @@ import CookieConsent from "@/components/cookie-consent"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Sarxt Energy | Solar Power & M.E.P. Services",
+  title: "SAY Energy | Leading Solar & MEP Solutions in Ghana",
   description:
-    "Sarxt Energy provides professional solar power solutions and M.E.P. services for residential and commercial properties. Lower your bills, increase property value, and help protect the planet.",
-    generator: 'v0.dev',
+    "Transform your home or business with reliable solar power systems and professional MEP services in Ghana. 3+ years of excellence in renewable energy across Ghana.",
+  generator: 'v0.dev',
   icons: {
     icon: [
       { url: "/favicon.ico" },

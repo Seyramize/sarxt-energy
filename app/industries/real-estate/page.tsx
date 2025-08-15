@@ -501,7 +501,7 @@ export default function RealEstateIndustryPage() {
                   </div>
                 </div>
                 <Button asChild className="w-full">
-                  <Link href="/projects/parkview-residences">View Full Case Study</Link>
+                  <Link href="/contact">Contact Us for Details</Link>
                 </Button>
               </div>
             </div>
@@ -540,7 +540,7 @@ export default function RealEstateIndustryPage() {
                   </div>
                 </div>
                 <Button asChild className="w-full">
-                  <Link href="/projects/commerce-tower">View Full Case Study</Link>
+                  <Link href="/contact">Contact Us for Details</Link>
                 </Button>
               </div>
             </div>

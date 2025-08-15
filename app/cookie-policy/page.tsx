@@ -27,7 +27,7 @@ export default function CookiePolicyPage() {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">How we use cookies</h2>
             <p className="mb-4">
-              Sarxt Energy uses cookies for a variety of purposes. We use different types of cookies to run our website
+              SAY Energy uses cookies for a variety of purposes. We use different types of cookies to run our website
               and services effectively.
             </p>
 

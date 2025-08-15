@@ -132,7 +132,7 @@ export default function FAQ() {
         {
           question: "What areas do you serve?",
           answer:
-            "We currently serve the entire Solar City metropolitan area and surrounding counties within a 50-mile radius. For projects outside this area, please contact us for availability as we may be able to accommodate depending on project scope.",
+            "We currently serve the entire Solar City metropolitan area and surrounding counties within a 50-mile radius. For installations outside this area, please contact us for availability as we may be able to accommodate depending on installation scope.",
         },
         {
           question: "How do I request a quote?",

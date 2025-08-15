@@ -243,7 +243,7 @@ export default function ManufacturingPage() {
               <h3 className="text-xl font-bold mb-3">Tax Incentives</h3>
               <p className="text-gray-700">
                 Take advantage of substantial tax credits, accelerated depreciation, and other incentives for energy
-                projects.
+                installations.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">

@@ -33,7 +33,7 @@ export function IndustrySolutionsSection() {
             </div>
             <div className="p-6 flex-grow">
               <p className="text-gray-600 mb-6">
-                Partner with Sarxt Energy to offer integrated energy solutions in your construction projects. We work
+                Partner with SAY Energy to offer integrated energy solutions in your construction projects. We work
                 directly with construction companies to incorporate solar, electrical, mechanical, and plumbing systems
                 that meet modern efficiency standards and sustainability goals.
               </p>

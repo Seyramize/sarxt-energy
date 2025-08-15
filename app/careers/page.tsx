@@ -64,9 +64,9 @@ const jobListings = [
     type: "Full-time",
     salary: "$75,000 - $95,000",
     description:
-      "Lead our electrical projects from inception to completion. You'll manage project teams, coordinate with clients and contractors, and ensure all work meets quality standards and timeline requirements.",
+      "Lead our electrical installations from inception to completion. You'll manage project teams, coordinate with clients and contractors, and ensure all work meets quality standards and timeline requirements.",
     responsibilities: [
-      "Oversee multiple electrical projects simultaneously",
+      "Oversee multiple electrical installations simultaneously",
       "Develop project plans, schedules, and budgets",
       "Coordinate with clients, suppliers, and subcontractors",
       "Ensure compliance with codes, regulations, and safety standards",
@@ -160,7 +160,7 @@ const jobListings = [
     type: "Full-time",
     salary: "$80,000 - $100,000",
     description:
-      "Oversee large-scale commercial HVAC projects from planning to completion. You'll manage project teams, coordinate with stakeholders, and ensure all work meets quality standards and timeline requirements.",
+      "Oversee large-scale commercial HVAC installations from planning to completion. You'll manage project teams, coordinate with stakeholders, and ensure all work meets quality standards and timeline requirements.",
     responsibilities: [
       "Manage commercial HVAC installation and retrofit projects",
       "Develop project plans, schedules, and budgets",
@@ -208,7 +208,7 @@ const jobListings = [
     type: "Full-time",
     salary: "$70,000 - $90,000",
     description:
-      "Supervise our commercial plumbing operations, including new construction and renovation projects. You'll lead a team of plumbers, coordinate with project managers, and ensure all work meets quality standards and code requirements.",
+      "Supervise our commercial plumbing operations, including new construction and renovation installations. You'll lead a team of plumbers, coordinate with project managers, and ensure all work meets quality standards and code requirements.",
     responsibilities: [
       "Supervise plumbing installations on commercial construction projects",
       "Coordinate with general contractors and other trades",
@@ -304,7 +304,7 @@ const jobListings = [
     type: "Full-time",
     salary: "$65,000 - $85,000",
     description:
-      "Prepare accurate cost estimates for electrical projects of all sizes. You'll analyze plans and specifications, calculate material and labor requirements, and develop competitive bids that maintain our quality standards.",
+      "Prepare accurate cost estimates for electrical installations of all sizes. You'll analyze plans and specifications, calculate material and labor requirements, and develop competitive bids that maintain our quality standards.",
     responsibilities: [
       "Review electrical plans and specifications for bidding opportunities",
       "Calculate material quantities and costs",
@@ -356,7 +356,7 @@ const jobListings = [
     responsibilities: [
       "Develop and execute marketing strategies for all service divisions",
       "Manage digital marketing campaigns and social media presence",
-      "Create compelling content for website, blog, and marketing materials",
+      "Create compelling content for website and marketing materials",
       "Track and analyze marketing metrics and ROI",
       "Collaborate with sales team to generate and nurture leads",
     ],
@@ -400,9 +400,9 @@ const jobListings = [
     type: "Full-time",
     salary: "$80,000 - $110,000",
     description:
-      "Lead the development of commercial and utility-scale renewable energy projects from concept to construction. You'll identify opportunities, secure land rights, navigate permitting processes, and manage interconnection applications.",
+      "Lead the development of commercial and utility-scale renewable energy installations from concept to construction. You'll identify opportunities, secure land rights, navigate permitting processes, and manage interconnection applications.",
     responsibilities: [
-      "Identify and evaluate potential sites for renewable energy projects",
+      "Identify and evaluate potential sites for renewable energy installations",
       "Negotiate land leases and purchase agreements",
       "Manage permitting and entitlement processes",
       "Coordinate interconnection applications and utility agreements",
@@ -516,7 +516,7 @@ const benefits = [
   {
     icon: <Zap className="h-10 w-10 text-primary" />,
     title: "Employee Discounts",
-    description: "Special pricing on all Sarxt Energy services and products for you and your immediate family.",
+    description: "Special pricing on all SAY Energy services and products for you and your immediate family.",
   },
   {
     icon: <Clock className="h-10 w-10 text-primary" />,
@@ -534,7 +534,7 @@ export default function CareersPage() {
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Join Our Team</h1>
             <p className="text-xl text-white mb-8">
-              Build your career with Sarxt Energy and help create a sustainable future through innovative energy
+              Build your career with SAY Energy and help create a sustainable future through innovative energy
               solutions.
             </p>
             <Button asChild size="lg" className="bg-white text-yellow-600 hover:bg-gray-100">
@@ -548,9 +548,9 @@ export default function CareersPage() {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Why Join Sarxt Energy?</h2>
+            <h2 className="text-3xl font-bold mb-4">Why Join SAY Energy?</h2>
             <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-              At Sarxt Energy, we're more than just an energy company. We're a team of passionate professionals
+              At SAY Energy, we're more than just an energy company. We're a team of passionate professionals
               dedicated to creating a sustainable future through innovative solutions.
             </p>
           </div>
@@ -646,7 +646,7 @@ export default function CareersPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">Our Application Process</h2>
             <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-              We've designed a straightforward application process to help you find your place at Sarxt Energy.
+              We've designed a straightforward application process to help you find your place at SAY Energy.
             </p>
           </div>
 
@@ -699,7 +699,7 @@ export default function CareersPage() {
             <div>
               <h2 className="text-3xl font-bold mb-6">Our Company Culture</h2>
               <p className="text-lg text-gray-700 mb-6">
-                At Sarxt Energy, we believe that our people are our greatest asset. We foster a culture of innovation,
+                At SAY Energy, we believe that our people are our greatest asset. We foster a culture of innovation,
                 collaboration, and continuous improvement.
               </p>
               <p className="text-lg text-gray-700 mb-6">
@@ -709,7 +709,7 @@ export default function CareersPage() {
               </p>
               <p className="text-lg text-gray-700 mb-6">
                 We celebrate successes together and learn from challenges as a team. If you're passionate about making a
-                difference in the energy industry and want to work with like-minded professionals, Sarxt Energy is the
+                difference in the energy industry and want to work with like-minded professionals, SAY Energy is the
                 place for you.
               </p>
             </div>

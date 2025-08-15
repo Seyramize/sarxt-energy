@@ -10,14 +10,14 @@ export default function AboutPage() {
       <section className="relative">
         <div className="absolute inset-0 bg-black/60 z-10" />
         <div className="relative h-[400px] w-full">
-          <Image src="/about-hero.jpg" alt="Sarxt Energy team" fill priority className="object-cover" />
+          <Image src="/about-hero.jpg" alt="SAY Energy team" fill priority className="object-cover" />
         </div>
         <div className="absolute inset-0 z-20 flex items-center">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-2xl">
-              <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">About Sarxt Energy</h1>
+              <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">About SAY Energy</h1>
               <p className="mt-6 text-xl text-white">
-                Leading the way in sustainable energy solutions and M.E.P. services.
+                Leading solar energy and MEP solutions in Ghana with 3+ years of excellence.
               </p>
             </div>
           </div>
@@ -31,24 +31,26 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Our Story</h2>
               <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-                Founded in 2010, Sarxt Energy began with a simple mission: to make sustainable energy accessible to
-                everyone. What started as a small team of passionate engineers has grown into a leading provider of
-                solar and M.E.P. solutions.
+                Founded in 2021, SAY Energy began with a mission to bring reliable solar energy solutions to Ghana.
+                What started as a small team of passionate engineers has grown into a leading provider of solar and MEP
+                services across the country.
               </p>
               <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-                Our founder, Seyram Yao Alifo, recognized the potential of solar energy to transform how we power our
-                homes and businesses. With a background in electrical engineering and a vision for a sustainable future,
-                he assembled a team of experts dedicated to quality, innovation, and customer satisfaction.
+                Our founder recognized the unique energy challenges facing Ghana and the tremendous potential of solar
+                energy to transform how we power our homes and businesses. With a deep understanding of Ghana's energy
+                landscape and a vision for a sustainable future, we assembled a team of experts dedicated to quality,
+                innovation, and customer satisfaction.
               </p>
               <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-                Today, Sarxt Energy serves both residential and commercial clients, providing comprehensive energy
-                solutions that reduce costs, increase property value, and help protect our planet.
+                Today, SAY Energy serves clients across Ghana, from Accra to Kumasi, providing comprehensive solar
+                solutions that reduce electricity costs, increase property value, and contribute to Ghana's renewable
+                energy goals.
               </p>
             </div>
             <div className="relative h-[500px] rounded-lg overflow-hidden shadow-xl">
               <Image
                 src="/founder.jpg"
-                alt="Seyram Yao Alifo, Founder and CEO of Sarxt Energy"
+                alt="Seyram Yao Alifo, Founder and CEO of SAY Energy"
                 fill
                 className="object-cover"
               />
@@ -63,7 +65,7 @@ export default function AboutPage() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Our Values</h2>
             <p className="mt-4 text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              At Sarxt Energy, our values guide everything we do. They shape our culture, inform our decisions, and
+              At SAY Energy, our values guide everything we do. They shape our culture, inform our decisions, and
               drive our commitment to excellence.
             </p>
           </div>
@@ -114,7 +116,7 @@ export default function AboutPage() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Our Leadership Team</h2>
             <p className="mt-4 text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Meet the experienced professionals who lead Sarxt Energy and drive our mission forward.
+              Meet the experienced professionals who lead SAY Energy and drive our mission forward.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -122,7 +124,7 @@ export default function AboutPage() {
               {
                 name: "Seyram Yao Alifo",
                 role: "Founder & CEO",
-                bio: "With over 15 years of experience in renewable energy, Seyram leads Sarxt Energy with vision and expertise.",
+                bio: "With over 15 years of experience in renewable energy, Seyram leads SAY Energy with vision and expertise.",
                 image: "/team-1.png",
               },
               {
@@ -137,24 +139,7 @@ export default function AboutPage() {
                 bio: "David leads our technical team, bringing innovation and technical excellence to our solar and M.E.P. solutions.",
                 image: "/team-3.png",
               },
-              {
-                name: "Sophia Rodriguez",
-                role: "Director of Residential Services",
-                bio: "Sophia specializes in designing custom solar solutions for residential clients, maximizing efficiency and aesthetics.",
-                image: "/team-4.png",
-              },
-              {
-                name: "Marcus Williams",
-                role: "Director of Commercial Services",
-                bio: "Marcus leads our commercial division, developing scalable energy solutions for businesses of all sizes.",
-                image: "/team-5.png",
-              },
-              {
-                name: "Priya Patel",
-                role: "Director of M.E.P. Services",
-                bio: "Priya brings extensive experience in mechanical, electrical, and plumbing systems to lead our M.E.P. division.",
-                image: "/team-6.png",
-              },
+              
             ].map((member, index) => (
               <div key={index} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
                 <div className="relative h-64 w-full">
@@ -172,7 +157,7 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-primary">
+      {/* <section className="py-16 bg-primary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tight text-sarxt-dark sm:text-4xl">Join Our Team</h2>
@@ -187,7 +172,7 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }
