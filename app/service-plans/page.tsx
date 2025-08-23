@@ -8,7 +8,7 @@ import { PlumbingPlansTable } from "@/components/plumbing-plans-table"
 import { CommercialSolarPlansTable } from "@/components/commercial-solar-plans-table"
 
 export const metadata: Metadata = {
-  title: "Service Plans | SAY Energy",
+  title: "Service Plans | Sey Energy",
   description: "Choose from our range of service plans for solar, HVAC, electrical, and plumbing services.",
 }
 

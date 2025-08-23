@@ -28,10 +28,10 @@ export default function Home() {
         title="Our Impact in Ghana"
         subtitle="Empowering homes and businesses across Ghana with sustainable energy solutions."
         stats={[
-                      { value: 200, label: "Installations Completed", suffix: "+" },
-          { value: 2500, label: "kW Installed", suffix: "+" },
-          { value: 1800, label: "Tons of CO₂ Offset", suffix: "+" },
-          { value: 95, label: "Client Satisfaction", suffix: "%" },
+                      { value: 15, label: "Installations Completed", suffix: "+" },
+          { value: 500, label: "kW Installed", suffix: "+" },
+          { value: 600, label: "Tons of CO₂ Offset", suffix: "+" },
+          { value: 82, label: "Client Satisfaction", suffix: "%" },
         ]}
         className="bg-gray-50"
       />
@@ -87,7 +87,7 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Why Choose SAY Energy?</h2>
+              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Why Choose Sey Energy?</h2>
               <p className="mt-4 text-lg text-gray-600">
                 With 3+ years of experience serving Ghana, we understand the unique energy challenges and opportunities in our region.
               </p>
@@ -144,7 +144,7 @@ export default function Home() {
               <div className="relative z-10 h-full w-full overflow-hidden rounded-lg">
                 <img
                   src="/about-image.jpg"
-                  alt="SAY Energy team installing solar panels in Ghana"
+                  alt="Sey Energy team installing solar panels in Ghana"
                   className="h-full w-full object-cover"
                 />
               </div>
@@ -231,7 +231,7 @@ export default function Home() {
         testimonials={[
           {
             quote:
-              "SAY Energy installed a 10kW solar system for our home in Accra. We've seen a 70% reduction in our electricity bills, and the system has been running flawlessly for over 2 years. Their team was professional and the installation was completed on time.",
+              "Sey Energy installed a 10kW solar system for our home in Accra. We've seen a 70% reduction in our electricity bills, and the system has been running flawlessly for over 2 years. Their team was professional and the installation was completed on time.",
             author: "Kwame Asante",
             position: "Homeowner",
             company: "Accra, Ghana",
@@ -239,7 +239,7 @@ export default function Home() {
           },
           {
             quote:
-              "As a business owner in Kumasi, switching to solar with SAY Energy was the best decision we made. Our operational costs have decreased significantly, and we're proud to be contributing to Ghana's renewable energy goals.",
+              "As a business owner in Kumasi, switching to solar with Sey Energy was the best decision we made. Our operational costs have decreased significantly, and we're proud to be contributing to Ghana's renewable energy goals.",
             author: "Ama Osei",
             position: "Managing Director",
             company: "Osei Enterprises",
@@ -247,7 +247,7 @@ export default function Home() {
           },
           {
             quote:
-              "The MEP services from SAY Energy transformed our office building. Their expertise in both solar and mechanical systems made them the perfect partner for our complex project in Takoradi.",
+              "The MEP services from Sey Energy transformed our office building. Their expertise in both solar and mechanical systems made them the perfect partner for our complex project in Takoradi.",
             author: "David Mensah",
             position: "Facilities Manager",
             company: "Mensah Group",

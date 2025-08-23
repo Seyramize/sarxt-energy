@@ -9,8 +9,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-5">
           <div>
             <div className="flex items-center">
-                          <Image src="/logo.png" alt="SAY Energy Logo" width={40} height={40} className="h-10 w-auto" />
-            <span className="ml-2 text-xl font-bold text-white">SAY Energy</span>
+                          <Image src="/logo.png" alt="Sey Energy Logo" width={40} height={40} className="h-10 w-auto" />
+            <span className="ml-2 text-xl font-bold text-white">Sey Energy</span>
             </div>
             <p className="mt-4 text-sm text-gray-300">
               Providing sustainable energy solutions and M.E.P. services for residential and commercial properties.
@@ -77,11 +77,11 @@ export default function Footer() {
                   Testimonials
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/careers" className="text-gray-300 hover:text-primary">
                   Careers
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div>
@@ -128,7 +128,7 @@ export default function Footer() {
         </div>
         <div className="mt-12 border-t border-gray-700 pt-8">
           <p className="text-center text-sm text-gray-300">
-            &copy; {new Date().getFullYear()} SAY Energy Inc. All rights reserved.
+            &copy; {new Date().getFullYear()} Sey Energy Inc. All rights reserved.
           </p>
         </div>
       </div>

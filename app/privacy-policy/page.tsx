@@ -11,7 +11,7 @@ export default function PrivacyPolicy() {
 
           <h2 className="text-xl font-semibold mt-8 mb-4">1. Introduction</h2>
           <p>
-            Welcome to SAY Energy ("we," "our," or "us"). We are committed to protecting your privacy and personal
+            Welcome to Sey Energy ("we," "our," or "us"). We are committed to protecting your privacy and personal
             information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when
             you visit our website or use our services.
           </p>
@@ -92,7 +92,7 @@ export default function PrivacyPolicy() {
           <h2 className="text-xl font-semibold mt-8 mb-4">8. Contact Us</h2>
           <p>If you have questions about this Privacy Policy, please contact us at:</p>
           <p className="mt-2">
-            SAY Energy Inc.
+            Sey Energy Inc.
             <br />
             123 Energy Way
             <br />

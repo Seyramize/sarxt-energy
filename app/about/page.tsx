@@ -10,12 +10,12 @@ export default function AboutPage() {
       <section className="relative">
         <div className="absolute inset-0 bg-black/60 z-10" />
         <div className="relative h-[400px] w-full">
-          <Image src="/about-hero.jpg" alt="SAY Energy team" fill priority className="object-cover" />
+          <Image src="/about-hero.jpg" alt="Sey Energy team" fill priority className="object-cover" />
         </div>
         <div className="absolute inset-0 z-20 flex items-center">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-2xl">
-              <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">About SAY Energy</h1>
+              <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">About Sey Energy</h1>
               <p className="mt-6 text-xl text-white">
                 Leading solar energy and MEP solutions in Ghana with 3+ years of excellence.
               </p>
@@ -31,7 +31,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Our Story</h2>
               <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-                Founded in 2021, SAY Energy began with a mission to bring reliable solar energy solutions to Ghana.
+                Founded in 2023, Sey Energy began with a mission to bring reliable solar energy solutions to Ghana.
                 What started as a small team of passionate engineers has grown into a leading provider of solar and MEP
                 services across the country.
               </p>
@@ -42,7 +42,7 @@ export default function AboutPage() {
                 innovation, and customer satisfaction.
               </p>
               <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-                Today, SAY Energy serves clients across Ghana, from Accra to Kumasi, providing comprehensive solar
+                Today, Sey Energy serves clients across Ghana, from Accra to Kumasi and beyond, providing comprehensive solar
                 solutions that reduce electricity costs, increase property value, and contribute to Ghana's renewable
                 energy goals.
               </p>
@@ -50,7 +50,7 @@ export default function AboutPage() {
             <div className="relative h-[500px] rounded-lg overflow-hidden shadow-xl">
               <Image
                 src="/founder.jpg"
-                alt="Seyram Yao Alifo, Founder and CEO of SAY Energy"
+                alt="Seyram Yao Alifo, Founder and CEO of Sey Energy"
                 fill
                 className="object-cover"
               />
@@ -65,7 +65,7 @@ export default function AboutPage() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Our Values</h2>
             <p className="mt-4 text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              At SAY Energy, our values guide everything we do. They shape our culture, inform our decisions, and
+              At Sey Energy, our values guide everything we do. They shape our culture, inform our decisions, and
               drive our commitment to excellence.
             </p>
           </div>
@@ -116,7 +116,7 @@ export default function AboutPage() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Our Leadership Team</h2>
             <p className="mt-4 text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Meet the experienced professionals who lead SAY Energy and drive our mission forward.
+              Meet the experienced professionals who lead Sey Energy and drive our mission forward.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -124,7 +124,7 @@ export default function AboutPage() {
               {
                 name: "Seyram Yao Alifo",
                 role: "Founder & CEO",
-                bio: "With over 15 years of experience in renewable energy, Seyram leads SAY Energy with vision and expertise.",
+                bio: "With years of experience in renewable energy, Seyram leads Sey Energy with vision and expertise.",
                 image: "/team-1.png",
               },
               {
@@ -134,9 +134,9 @@ export default function AboutPage() {
                 image: "/team-2.png",
               },
               {
-                name: "David Chen",
+                name: "Acheampong Emmanuel Boateng",
                 role: "Chief Technical Officer",
-                bio: "David leads our technical team, bringing innovation and technical excellence to our solar and M.E.P. solutions.",
+                bio: "Acheampong leads our technical team, bringing innovation and technical excellence to our solar and M.E.P. solutions.",
                 image: "/team-3.png",
               },
               

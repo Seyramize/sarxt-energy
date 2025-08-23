@@ -20,7 +20,7 @@ import {
 } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Residential Solar Quote | SAY Energy",
+  title: "Residential Solar Quote | Sey Energy",
   description: "Get a customized quote for your residential solar installation. Our experts will design the perfect system for your home.",
 }
 
