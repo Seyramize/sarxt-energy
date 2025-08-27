@@ -743,7 +743,7 @@ export default function SolarPackagesPage() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-sarxt-dark">
-              <Link href="/quote">Get Free Quote</Link>
+              <Link href="/quote">Get a Quote</Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-sarxt-dark">
               <Link href="/contact">Contact Our Experts</Link>

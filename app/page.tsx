@@ -289,7 +289,7 @@ export default function Home() {
                 asChild
                 variant="outline"
                 size="lg"
-                className="text-base border-white text-white hover:bg-yellow-400 hover:text-sarxt-dark relative overflow-hidden group"
+                className="text-black bg-yellow-400 hover:bg-yellow-500 relative overflow-hidden group"
               >
                 <Link href="/solar-packages">
                   <span className="relative z-10">View Solar Packages</span>

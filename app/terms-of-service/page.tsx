@@ -92,13 +92,11 @@ export default function TermsOfService() {
           <p className="mt-2">
             SeyEnergy Inc.
             <br />
-            123 Energy Way
+            Accra, Ghana
             <br />
-            Solar City, SC 12345
+            Email: legal@seyenergy.com
             <br />
-            Email: legal@sarxtenergy.com
-            <br />
-            Phone: (123) 456-7890
+            Phone: (233) 54 650 6220
           </p>
         </div>
 

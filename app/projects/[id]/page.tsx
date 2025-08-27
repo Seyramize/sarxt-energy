@@ -595,7 +595,7 @@ export default function ProjectDetailPage({ params }: { params: { id: string } }
             </p>
             <div className="mt-10">
               <Button asChild size="lg" className="text-base">
-                <Link href="/contact">Get a Free Quote</Link>
+                <Link href="/contact">Get a Quote</Link>
               </Button>
             </div>
           </div>

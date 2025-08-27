@@ -97,12 +97,12 @@ export default function CookiePolicyPage() {
             <ul className="list-disc pl-5 mb-4">
               <li>
                 Email:{" "}
-                <Link href="mailto:privacy@sarxtenergy.com" className="text-primary hover:underline">
-                  privacy@sarxtenergy.com
+                <Link href="mailto:privacy@seyenergy.com" className="text-primary hover:underline">
+                  privacy@seyenergy.com
                 </Link>
               </li>
-              <li>Phone: (123) 456-7890</li>
-              <li>Address: 123 Energy Way, Solar City, SC 12345</li>
+              <li>Phone: (233) 54 650 6220</li>
+              <li>Address: Accra, Ghana</li>
             </ul>
           </section>
         </div>
