@@ -10,7 +10,7 @@ import CookieConsent from "@/components/cookie-consent"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Sey Energy | Leading Solar & MEP Solutions in Ghana",
+  title: "SeyEnergy | Leading Solar & MEP Solutions in Ghana",
   description:
     "Transform your home or business with reliable solar power systems and professional MEP services in Ghana. 3+ years of excellence in renewable energy across Ghana.",
   generator: 'v0.dev',

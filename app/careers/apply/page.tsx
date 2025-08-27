@@ -165,7 +165,7 @@ export default function JobApplicationPage() {
             <div className="bg-green-100 text-green-800 p-6 rounded-lg mb-8">
               <h2 className="text-2xl font-bold mb-4">Application Submitted!</h2>
               <p className="mb-4">
-                Thank you for your interest in joining Sey Energy. We've received your application and will review it
+                Thank you for your interest in joining SeyEnergy. We've received your application and will review it
                 shortly.
               </p>
               <p>Our hiring team will contact you if your qualifications match our requirements.</p>

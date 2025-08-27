@@ -87,7 +87,7 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Why Choose Sey Energy?</h2>
+              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Why Choose SeyEnergy?</h2>
               <p className="mt-4 text-lg text-gray-600">
                 With 3+ years of experience serving Ghana, we understand the unique energy challenges and opportunities in our region.
               </p>
@@ -144,7 +144,7 @@ export default function Home() {
               <div className="relative z-10 h-full w-full overflow-hidden rounded-lg">
                 <img
                   src="/about-image.jpg"
-                  alt="Sey Energy team installing solar panels in Ghana"
+                  alt="SeyEnergy team installing solar panels in Ghana"
                   className="h-full w-full object-cover"
                 />
               </div>
@@ -231,27 +231,27 @@ export default function Home() {
         testimonials={[
           {
             quote:
-              "Sey Energy installed a 10kW solar system for our home in Accra. We've seen a 70% reduction in our electricity bills, and the system has been running flawlessly for over 2 years. Their team was professional and the installation was completed on time.",
-            author: "Kwame Asante",
+              "SeyEnergy installed a 10kW solar system for our home in Accra. We've seen a 70% reduction in our electricity bills, and the system has been running flawlessly for over 2 years. Their team was professional and the installation was completed on time.",
+            author: "Phillip Edwards",
             position: "Homeowner",
             company: "Accra, Ghana",
-            imageSrc: "/testimonials/kwame.jpg",
+            imageSrc: "/jpm.png",
           },
           {
             quote:
-              "As a business owner in Kumasi, switching to solar with Sey Energy was the best decision we made. Our operational costs have decreased significantly, and we're proud to be contributing to Ghana's renewable energy goals.",
-            author: "Ama Osei",
+              "As a business owner in Kumasi, switching to solar with SeyEnergy was the best decision we made. Our operational costs have decreased significantly, and we're proud to be contributing to Ghana's renewable energy goals.",
+            author: "Moses Osei",
             position: "Managing Director",
             company: "Osei Enterprises",
-            imageSrc: "/testimonials/ama.jpg",
+            imageSrc: "/asabir.png",
           },
           {
             quote:
-              "The MEP services from Sey Energy transformed our office building. Their expertise in both solar and mechanical systems made them the perfect partner for our complex project in Takoradi.",
+              "The MEP services from SeyEnergy transformed our office building. Their expertise in both solar and mechanical systems made them the perfect partner for our complex project in Takoradi.",
             author: "David Mensah",
             position: "Facilities Manager",
             company: "Mensah Group",
-            imageSrc: "/testimonials/david.jpg",
+            imageSrc: "/charles.png",
           },
         ]}
       />
@@ -281,7 +281,7 @@ export default function Home() {
             <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
               <Button asChild size="lg" className="text-base relative overflow-hidden group">
                 <Link href="/quote">
-                  <span className="relative z-10">Get Free Quote</span>
+                  <span className="relative z-10">Get a Quote</span>
                   <span className="absolute inset-0 bg-white/20 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
                 </Link>
               </Button>

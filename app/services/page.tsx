@@ -37,7 +37,7 @@ export default function ServicesPage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="relative h-[500px] rounded-lg overflow-hidden shadow-xl">
-              <Image src="/residential-solar.png" alt="Residential solar installation" fill className="object-cover" />
+              <Image src="/residential-solar.jpg" alt="Residential solar installation" fill className="object-cover" />
             </div>
             <div>
               <div className="bg-primary/10 w-12 h-12 rounded-full flex items-center justify-center mb-4">
@@ -147,7 +147,7 @@ export default function ServicesPage() {
               </div>
             </div>
             <div className="relative h-[500px] rounded-lg overflow-hidden shadow-xl order-1 md:order-2">
-              <Image src="/commercial-solar.png" alt="Commercial solar installation" fill className="object-cover" />
+              <Image src="/commercial-solar.jpg" alt="Commercial solar installation" fill className="object-cover" />
             </div>
           </div>
         </div>

@@ -85,7 +85,7 @@ export default function ContactPage() {
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Sey Energy Location"
+                    title="SeyEnergy Location"
                     className="absolute inset-0"
                   ></iframe>
                 </div>

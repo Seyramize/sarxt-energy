@@ -23,7 +23,7 @@ import {
 } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "HVAC Services Quote | Sey Energy",
+  title: "HVAC Services Quote | SeyEnergy",
   description: "Get a customized quote for your HVAC installation, repair, or maintenance. Our experts will design the perfect climate control solution.",
 }
 

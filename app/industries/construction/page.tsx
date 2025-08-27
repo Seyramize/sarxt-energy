@@ -48,7 +48,7 @@ export default function ConstructionIndustryPage() {
               </div>
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Building a Sustainable Future</h2>
               <p className="mt-4 text-lg text-gray-600">
-                Sey Energy partners with construction companies and developers to integrate cutting-edge energy
+                SeyEnergy partners with construction companies and developers to integrate cutting-edge energy
                 solutions into new construction and renovation projects. Our expertise in solar energy and M.E.P.
                 systems allows us to work alongside your team from the design phase through completion, ensuring
                 seamless integration and optimal performance.
@@ -402,7 +402,7 @@ export default function ConstructionIndustryPage() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Benefits for Construction Companies</h2>
             <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-              Partner with Sey Energy to enhance your construction projects and deliver more value to your clients.
+              Partner with SeyEnergy to enhance your construction projects and deliver more value to your clients.
             </p>
           </div>
 

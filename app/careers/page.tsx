@@ -516,7 +516,7 @@ const benefits = [
   {
     icon: <Zap className="h-10 w-10 text-primary" />,
     title: "Employee Discounts",
-    description: "Special pricing on all Sey Energy services and products for you and your immediate family.",
+    description: "Special pricing on all SeyEnergy services and products for you and your immediate family.",
   },
   {
     icon: <Clock className="h-10 w-10 text-primary" />,
@@ -534,7 +534,7 @@ export default function CareersPage() {
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Join Our Team</h1>
             <p className="text-xl text-white mb-8">
-              Build your career with Sey Energy and help create a sustainable future through innovative energy
+              Build your career with SeyEnergy and help create a sustainable future through innovative energy
               solutions.
             </p>
             <Button asChild size="lg" className="bg-white text-yellow-600 hover:bg-gray-100">
@@ -548,9 +548,9 @@ export default function CareersPage() {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Why Join Sey Energy?</h2>
+            <h2 className="text-3xl font-bold mb-4">Why Join SeyEnergy?</h2>
             <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-              At Sey Energy, we're more than just an energy company. We're a team of passionate professionals
+              At SeyEnergy, we're more than just an energy company. We're a team of passionate professionals
               dedicated to creating a sustainable future through innovative solutions.
             </p>
           </div>
@@ -646,7 +646,7 @@ export default function CareersPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">Our Application Process</h2>
             <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-              We've designed a straightforward application process to help you find your place at Sey Energy.
+              We've designed a straightforward application process to help you find your place at SeyEnergy.
             </p>
           </div>
 
@@ -699,7 +699,7 @@ export default function CareersPage() {
             <div>
               <h2 className="text-3xl font-bold mb-6">Our Company Culture</h2>
               <p className="text-lg text-gray-700 mb-6">
-                At Sey Energy, we believe that our people are our greatest asset. We foster a culture of innovation,
+                At SeyEnergy, we believe that our people are our greatest asset. We foster a culture of innovation,
                 collaboration, and continuous improvement.
               </p>
               <p className="text-lg text-gray-700 mb-6">
@@ -709,7 +709,7 @@ export default function CareersPage() {
               </p>
               <p className="text-lg text-gray-700 mb-6">
                 We celebrate successes together and learn from challenges as a team. If you're passionate about making a
-                difference in the energy industry and want to work with like-minded professionals, Sey Energy is the
+                difference in the energy industry and want to work with like-minded professionals, SeyEnergy is the
                 place for you.
               </p>
             </div>
