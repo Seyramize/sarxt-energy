@@ -635,11 +635,11 @@ export default function SolarPackagesPage() {
                 <div>
                   <h4 className="font-semibold mb-2">Price Variations</h4>
                   <ul className="space-y-1">
-                    <li>• Prices may increase or decrease based on:</li>
+                    <li>Prices may increase or decrease based on, inclusive of:</li>
+                    <li>• Changes in requirements or specifications</li>
                     <li>• Current exchange rates (USD/GHS)</li>
                     <li>• Import duties and tax changes</li>
-                    <li>• Equipment availability and demand</li>
-                    <li>• Installation complexity and location</li>
+                    <li>• Deadlines may be impacted by Logistics and supply chain conditions</li>
                   </ul>
                 </div>
                 <div>
@@ -647,15 +647,14 @@ export default function SolarPackagesPage() {
                   <ul className="space-y-1">
                     <li>• Transparent pricing with no hidden costs</li>
                     <li>• Free detailed quote before commitment</li>
-                    <li>• Price lock-in for 30 days after quote</li>
-                    <li>• Flexible payment options available</li>
+                    <li>• Firm price for 15 days "subject to conditions"</li>
                     <li>• Quality equipment with full warranties</li>
                   </ul>
                 </div>
               </div>
               <div className="mt-4 p-3 bg-yellow-100 rounded-lg">
                 <p className="text-yellow-800 font-medium">
-                  💡 <strong>Get Your Free Quote:</strong> Contact us for a personalized quote based on your specific requirements and current market conditions.
+                  💡 <strong>Get Your Quote:</strong> Contact us for a personalized quote based on your specific requirements and current market conditions.
                 </p>
               </div>
             </div>
