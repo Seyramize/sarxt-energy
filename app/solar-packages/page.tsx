@@ -633,22 +633,24 @@ export default function SolarPackagesPage() {
               <h3 className="text-lg font-semibold text-yellow-800 mb-3">📢 Important Pricing Information</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm text-yellow-700">
                 <div>
+                  <h4 className="font-semibold mb-2">What We Guarantee</h4>
+                  <ul className="space-y-1">
+                    <li>• Transparent pricing with no hidden costs</li>
+                    <li>• Free detailed quote before commitment</li>
+                    <li>• Firm price for 15 days, subject to conditions.</li>
+                    <li>• Quality equipment with full warranties</li>
+                  </ul>
+                </div>
+
+                <div>
                   <h4 className="font-semibold mb-2">Price Variations</h4>
                   <ul className="space-y-1">
                     <li>Prices may increase or decrease based on, inclusive of:</li>
                     <li>• Changes in requirements or specifications</li>
                     <li>• Current exchange rates (USD/GHS)</li>
                     <li>• Import duties and tax changes</li>
-                    <li>• Deadlines may be impacted by Logistics and supply chain conditions</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-2">What We Guarantee</h4>
-                  <ul className="space-y-1">
-                    <li>• Transparent pricing with no hidden costs</li>
-                    <li>• Free detailed quote before commitment</li>
-                    <li>• Firm price for 15 days "subject to conditions"</li>
-                    <li>• Quality equipment with full warranties</li>
+                    <li>Deadlines may be impacted by:</li> 
+                    <li>• Logistics and supply chain conditions</li>
                   </ul>
                 </div>
               </div>
