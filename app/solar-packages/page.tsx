@@ -638,7 +638,7 @@ export default function SolarPackagesPage() {
                     <li>• Transparent pricing with no hidden costs</li>
                     <li>• Free detailed quote before commitment</li>
                     <li>• Firm price for 15 days, subject to conditions.</li>
-                    <li>• Professional installation with full warranties</li>
+                    <li>• Professional installation with full warranty</li>
                   </ul>
                 </div>
                 <div>
